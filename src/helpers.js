@@ -1,5 +1,6 @@
-// ['x','y'] => [{x},{x},{y},{y}]
 
+// ['x','y'] => [{x},{x},{y},{y}]
+// takes our array of strings and converts them to our deck
 export const createDeck = (cardValues) => {
   return cardValues.reduce((cards, cardString, index) => {
     let cardObj = {
